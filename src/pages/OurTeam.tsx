@@ -1,0 +1,157 @@
+import React from 'react';
+import { Mail, Linkedin, User } from 'lucide-react';
+import Footer from '../components/Footer';
+
+const OurTeam = () => {
+  const teamMembers = [
+    {
+      name: "Claire Yu",
+      role: "Founder, Problem Writer",
+      bio: "High school senior at Germantown Friends School.",
+      image: "https://images.pexels.com/photos/3762800/pexels-photo-3762800.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
+      email: "clairesunyu@gmail.com",
+      linkedin: "#"
+    },
+    {
+      name: "Benedict Tessler",
+      role: "Founder, Problem Writer",
+      bio: "Math & CS major at the University of Pennsylvania",
+      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
+      email: "michael.chen@gfml.org",
+      linkedin: "#"
+    },
+    {
+      name: "Luke Greenawalt",
+      role: "Problem Writer",
+      bio: "Math & CS major at Carnegie Mellon University",
+      image: "https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
+      email: "elena.rodriguez@gfml.org",
+      linkedin: "#"
+    },
+    {
+      name: "David Thompson",
+      role: "Outreach Director",
+      bio: "Former high school principal dedicated to making mathematics accessible to students from all backgrounds.",
+      image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
+      email: "david.thompson@gfml.org",
+      linkedin: "#"
+    }
+  ];
+
+  const advisors = [
+    {
+      name: "Robert Jin",
+      affiliation: "Minnetonka, MN",
+    },
+    {
+      name: "Natalie Khawaja",
+      affiliation: "Demarest, NJ",
+    },
+    {
+      name: "Rhea Agrawal",
+      affiliation: "Mumbai, India",
+    },
+    {
+      name: "Joshua Wu",
+      affiliation: "San Francisco, CA",
+    }
+  ];
+
+  return (
+    <div className="min-h-screen bg-gray-50 py-12">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Our Team</h1>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Meet the dedicated educators and mathematicians working to promote accessibility 
+            in mathematics and nurture mathematical talent
+          </p>
+        </div>
+
+        {/* Core Team */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Core Team</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+            {teamMembers.map((member, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <div className="p-8">
+                  <div className="flex items-start space-x-6">
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="w-24 h-24 rounded-full object-cover flex-shrink-0"
+                    />
+                    <div className="flex-1">
+                      <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
+                      <p className="text-orange-600 font-medium mb-3">{member.role}</p>
+                      <p className="text-gray-600 text-sm leading-relaxed mb-4">{member.bio}</p>
+                      <div className="flex space-x-3">
+                        <a
+                          href={`mailto:${member.email}`}
+                          className="text-gray-400 hover:text-orange-600 transition-colors"
+                        >
+                          <Mail className="h-5 w-5" />
+                        </a>
+                        <a
+                          href={member.linkedin}
+                          className="text-gray-400 hover:text-orange-600 transition-colors"
+                        >
+                          <Linkedin className="h-5 w-5" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Academic Advisors */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Chapter Leaders</h2>
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <div className="grid md:grid-cols-3 gap-6">
+              {advisors.map((advisor, index) => (
+                <div key={index} className="text-center p-6 border border-gray-200 rounded-lg">
+                  <User className="h-16 w-16 text-orange-600 mx-auto mb-4" />
+                  <h3 className="text-lg font-semibold text-gray-900 mb-1">{advisor.name}</h3>
+                  <p className="text-orange-600 text-sm mb-2">{advisor.affiliation}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Mission Statement */}
+        <section className="bg-orange-50 rounded-lg p-8 text-center">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Commitment</h2>
+          <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            We believe that every student deserves access to high-quality mathematical challenges. 
+            Our team is committed to creating an inclusive environment where students from all 
+            backgrounds can discover their potential, develop problem-solving skills, and 
+            cultivate a lifelong love of mathematics.
+          </p>
+        </section>
+
+        {/* Join Us */}
+        <section className="mt-12 text-center">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Want to Join Our Team?</h2>
+          <p className="text-gray-600 mb-6">
+            We're always looking for passionate educators and mathematicians to help with our mission.
+          </p>
+          <a
+            href="mailto:info@gfml.org"
+            className="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-orange-600 hover:bg-orange-700 rounded-lg transition-colors"
+          >
+            <Mail className="h-5 w-5 mr-2" />
+            Contact Us
+          </a>
+        </section>
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default OurTeam;
