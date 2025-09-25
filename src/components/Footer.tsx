@@ -9,7 +9,9 @@ const Footer = () => {
           {/* Logo and Mission */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <img src="/GFML.png" alt="GFML Logo" className="h-8 w-8" />
+              <div className="bg-white rounded-full p-2">
+                <img src="/GFML.png" alt="GFML Logo" className="h-8 w-8" />
+              </div>
               <span className="font-bold text-xl">GFML</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
