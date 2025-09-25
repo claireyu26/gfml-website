@@ -144,7 +144,7 @@ const OurTeam = () => {
             href="mailto:info@gfml.org"
             className="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-orange-600 hover:bg-orange-700 rounded-lg transition-colors"
           >
-            <Mail className="mb-16 h-5 w-5 mr-2" />
+            <Mail className="h-5 w-5 mr-2" />
             Contact Us
           </a>
         </section>
