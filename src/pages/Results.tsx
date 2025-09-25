@@ -6,33 +6,33 @@ const Results = () => {
   // Sample data - replace with actual results
   const pastCompetitions = [
     {
-      round: "Year 1 - Spring 2025",
+      round: "Upper Division - Spring 2025",
       date: "February to May 2026",
       participants: 58,
       topScorers: [
-        { name: "******", school: "Hammarskjold Upper Elementary school", score: 26 },
-        { name: "***", school: "Germantown Friends School", score: 23 },
-        { name: "****", school: "Johnson Park Elementary School", score: 17 },
+        { name: "******", school: "Budding Minds International School", score: 32 },
+        { name: "***", school: "Connections Academy", score: 29 },
+        { name: "****", school: "Dakahlia STEM High School", score: 28 },
       ]
     },
     {
-      round: "Year 1 - Spring 2025",
+      round: "Middle Division - Spring 2025",
       date: "February to May 2026",
       participants: 58,
       topScorers: [
-        { name: "******", school: "Hammarskjold Upper Elementary school", score: 26 },
-        { name: "***", school: "Germantown Friends School", score: 23 },
-        { name: "****", school: "Johnson Park Elementary School", score: 17 },
+        { name: "****", school: "Solon Middle School", score: 35 },
+        { name: "**", school: "Trinity Middle School", score: 33 },
+        { name: "*****", school: "Solon Middle School", score: 33 },
       ]
     },
     {
-      round: "Year 1 - Spring 2025",
+      round: "Lower Division - Spring 2025",
       date: "February to May 2026",
       participants: 58,
       topScorers: [
-        { name: "******", school: "Hammarskjold Upper Elementary school", score: 26 },
-        { name: "***", school: "Germantown Friends School", score: 23 },
-        { name: "****", school: "Johnson Park Elementary School", score: 17 },
+        { name: "******", school: "Hammarskjold Upper Elementary School", score: 34 },
+        { name: "***", school: "Germantown Friends School", score: 29 },
+        { name: "****", school: "Johnson Park Elementary School", score: 28 },
       ]
     },
   ];
