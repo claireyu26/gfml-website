@@ -6,23 +6,33 @@ const Results = () => {
   // Sample data - replace with actual results
   const pastCompetitions = [
     {
-      round: "Round 3 - Fall 2024",
-      date: "November 2024",
-      participants: 245,
+      round: "Year 1 - Spring 2025",
+      date: "February to May 2026",
+      participants: 58,
       topScorers: [
-        { name: "Alex Chen", school: "Central High School", score: 98 },
-        { name: "Maya Patel", school: "Riverside Academy", score: 95 },
-        { name: "Jordan Kim", school: "Lincoln Middle School", score: 92 },
+        { name: "******", school: "Hammarskjold Upper Elementary school", score: 26 },
+        { name: "***", school: "Germantown Friends School", score: 23 },
+        { name: "****", school: "Johnson Park Elementary School", score: 17 },
       ]
     },
     {
-      round: "Round 2 - Fall 2024",
-      date: "October 2024",
-      participants: 198,
+      round: "Year 1 - Spring 2025",
+      date: "February to May 2026",
+      participants: 58,
       topScorers: [
-        { name: "Sarah Johnson", school: "Oak Valley High", score: 96 },
-        { name: "Marcus Rodriguez", school: "Pine Grove School", score: 94 },
-        { name: "Emma Zhang", school: "Westfield Academy", score: 91 },
+        { name: "******", school: "Hammarskjold Upper Elementary school", score: 26 },
+        { name: "***", school: "Germantown Friends School", score: 23 },
+        { name: "****", school: "Johnson Park Elementary School", score: 17 },
+      ]
+    },
+    {
+      round: "Year 1 - Spring 2025",
+      date: "February to May 2026",
+      participants: 58,
+      topScorers: [
+        { name: "******", school: "Hammarskjold Upper Elementary school", score: 26 },
+        { name: "***", school: "Germantown Friends School", score: 23 },
+        { name: "****", school: "Johnson Park Elementary School", score: 17 },
       ]
     },
   ];
