@@ -8,7 +8,7 @@ const OurTeam = () => {
       name: "Claire Yu",
       role: "Founder, Problem Writer",
       bio: "High school senior at Germantown Friends School.",
-      image: "https://images.pexels.com/photos/3762800/pexels-photo-3762800.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
+      image: "/GFML.png",
       email: "clairesunyu@gmail.com",
       linkedin: "#"
     },
@@ -16,7 +16,7 @@ const OurTeam = () => {
       name: "Benedict Tessler",
       role: "Founder, Problem Writer",
       bio: "Math & CS major at the University of Pennsylvania",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
+      image: "/GFML.png",
       email: "michael.chen@gfml.org",
       linkedin: "#"
     },
