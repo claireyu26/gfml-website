@@ -41,10 +41,10 @@ const Results = () => {
         <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 mb-8">
           <div className="text-center">
             <Trophy className="h-12 w-12 text-orange-600 mx-auto mb-4" />
-            <h2 className="text-2xl font-semibold text-gray-900 mb-2">Round 4 - Winter 2025</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-2">Year 2 - Spring 2026</h2>
             <p className="text-gray-700 mb-4">Currently accepting registrations</p>
             <p className="text-sm text-gray-600">
-              Competition Date: January 15, 2025 | Results will be posted by January 22, 2025
+              Competition Date: February - May 2026 | Results will be posted by June 2026
             </p>
           </div>
         </div>
