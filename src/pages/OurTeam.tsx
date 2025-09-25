@@ -24,7 +24,7 @@ const OurTeam = () => {
       name: "Luke Greenawalt",
       role: "Problem Writer",
       bio: "Math & CS major at Carnegie Mellon University",
-      image: "https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
+      image: "/GFML.png",
       email: "elena.rodriguez@gfml.org",
       linkedin: "#"
     },
