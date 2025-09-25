@@ -28,14 +28,6 @@ const OurTeam = () => {
       email: "elena.rodriguez@gfml.org",
       linkedin: "#"
     },
-    {
-      name: "David Thompson",
-      role: "Outreach Director",
-      bio: "Former high school principal dedicated to making mathematics accessible to students from all backgrounds.",
-      image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
-      email: "david.thompson@gfml.org",
-      linkedin: "#"
-    }
   ];
 
   const advisors = [
