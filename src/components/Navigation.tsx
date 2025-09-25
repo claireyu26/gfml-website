@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Calculator, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +24,7 @@ const Navigation = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <Calculator className="h-8 w-8 text-orange-600" />
+              <img src="/GFML.png" alt="GFML Logo" className="h-8 w-8" />
               <span className="font-bold text-xl text-gray-900">GFML</span>
             </Link>
           </div>

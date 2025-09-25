@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calculator, Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Logo and Mission */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Calculator className="h-8 w-8 text-orange-500" />
+              <img src="/GFML.png" alt="GFML Logo" className="h-8 w-8" />
               <span className="font-bold text-xl">GFML</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
