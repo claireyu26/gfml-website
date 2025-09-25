@@ -87,7 +87,7 @@ const Results = () => {
         </div>
 
         {/* Statistics */}
-        <div className="mt-12 grid md:grid-cols-3 gap-6">
+        <div className="mt-12 mb-16 grid md:grid-cols-3 gap-6">
           <div className="bg-white rounded-lg shadow-md p-6 text-center">
             <h3 className="text-3xl font-bold text-orange-600 mb-2">500+</h3>
             <p className="text-gray-600">Total Participants</p>
