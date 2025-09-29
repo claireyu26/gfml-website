@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const Home = () => {
   return (
-    <div>
+    <div className="mb-16">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-orange-50 to-orange-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
