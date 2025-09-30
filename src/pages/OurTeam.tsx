@@ -16,12 +16,6 @@ const OurTeam = () => {
       bio: "Math & CS major at the University of Pennsylvania",
       image: "/GFML.png",
     },
-    {
-      name: "Luke Greenawalt",
-      role: "Problem Writer",
-      bio: "Math & CS major at Carnegie Mellon University",
-      image: "/GFML.png",
-    },
   ];
 
   const advisors = [
