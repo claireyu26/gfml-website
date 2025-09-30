@@ -1,6 +1,8 @@
 import React from 'react';
 import { Mail, Linkedin, User } from 'lucide-react';
 import Footer from '../components/Footer';
+import claireHeadshot from '../claire_headshot.jpeg';
+import lukeHeadshot from '../luke_headshot.png';
 
 const OurTeam = () => {
   const teamMembers = [
@@ -8,7 +10,7 @@ const OurTeam = () => {
       name: "Claire Yu",
       role: "Founder, Problem Writer",
       bio: "High school senior at Germantown Friends School.",
-      image: "/claire_headshot.jpeg",
+      image: claireHeadshot,
     },
     {
       name: "Benedict Tessler",
@@ -78,7 +80,7 @@ const OurTeam = () => {
               <div className="p-8">
                 <div className="flex items-start space-x-6">
                   <img
-                    src="/luke_headshot.png"
+                    src={lukeHeadshot}
                     alt="Luke Greenawalt"
                     className="w-24 h-24 rounded-full object-cover flex-shrink-0"
                   />
