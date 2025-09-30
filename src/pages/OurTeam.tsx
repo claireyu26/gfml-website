@@ -14,7 +14,7 @@ const OurTeam = () => {
       name: "Benedict Tessler",
       role: "Founder, Problem Writer",
       bio: "Math & CS major at the University of Pennsylvania",
-      image: "/luke_headshot.png",
+      image: "/GFML.png",
     },
   ];
 
@@ -78,7 +78,7 @@ const OurTeam = () => {
               <div className="p-8">
                 <div className="flex items-start space-x-6">
                   <img
-                    src="/GFML.png"
+                    src="/luke_headshot.png"
                     alt="Luke Greenawalt"
                     className="w-24 h-24 rounded-full object-cover flex-shrink-0"
                   />
