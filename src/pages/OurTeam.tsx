@@ -61,7 +61,7 @@ const OurTeam = () => {
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="w-45 h-45 rounded-full object-cover flex-shrink-0"
+                      className="w-40 h-40 rounded-full object-cover flex-shrink-0"
                     />
                     <div className="flex-1">
                       <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
@@ -82,7 +82,7 @@ const OurTeam = () => {
                   <img
                     src={lukeHeadshot}
                     alt="Luke Greenawalt"
-                    className="w-24 h-24 rounded-full object-cover flex-shrink-0"
+                    className="w-40 h-40 rounded-full object-cover flex-shrink-0"
                   />
                   <div className="flex-1">
                     <h3 className="text-xl font-bold text-gray-900 mb-1">Luke Greenawalt</h3>
