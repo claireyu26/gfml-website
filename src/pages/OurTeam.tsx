@@ -57,7 +57,7 @@ const OurTeam = () => {
         {/* Core Team */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Core Team</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {teamMembers.map((member, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="p-8">
@@ -77,13 +77,33 @@ const OurTeam = () => {
               </div>
             ))}
           </div>
+          
+          {/* Luke's centered box */}
+          <div className="flex justify-center mt-8">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow max-w-md">
+              <div className="p-8">
+                <div className="flex items-start space-x-6">
+                  <img
+                    src="/GFML.png"
+                    alt="Luke Greenawalt"
+                    className="w-24 h-24 rounded-full object-cover flex-shrink-0"
+                  />
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-gray-900 mb-1">Luke Greenawalt</h3>
+                    <p className="text-orange-600 font-medium mb-3">Problem Writer</p>
+                    <p className="text-gray-600 text-sm leading-relaxed mb-4">Math & CS major at Carnegie Mellon University</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* Academic Advisors */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Chapter Leaders</h2>
           <div className="bg-white rounded-lg shadow-lg p-8">
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {advisors.map((advisor, index) => (
                 <div key={index} className="text-center p-6 border border-gray-200 rounded-lg">
                   <User className="h-16 w-16 text-orange-600 mx-auto mb-4" />
