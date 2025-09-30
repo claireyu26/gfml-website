@@ -9,24 +9,18 @@ const OurTeam = () => {
       role: "Founder, Problem Writer",
       bio: "High school senior at Germantown Friends School.",
       image: "/GFML.png",
-      email: "clairesunyu@gmail.com",
-      linkedin: "#"
     },
     {
       name: "Benedict Tessler",
       role: "Founder, Problem Writer",
       bio: "Math & CS major at the University of Pennsylvania",
       image: "/GFML.png",
-      email: "michael.chen@gfml.org",
-      linkedin: "#"
     },
     {
       name: "Luke Greenawalt",
       role: "Problem Writer",
       bio: "Math & CS major at Carnegie Mellon University",
       image: "/GFML.png",
-      email: "elena.rodriguez@gfml.org",
-      linkedin: "#"
     },
   ];
 
@@ -77,20 +71,6 @@ const OurTeam = () => {
                       <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
                       <p className="text-orange-600 font-medium mb-3">{member.role}</p>
                       <p className="text-gray-600 text-sm leading-relaxed mb-4">{member.bio}</p>
-                      <div className="flex space-x-3">
-                        <a
-                          href={`mailto:${member.email}`}
-                          className="text-gray-400 hover:text-orange-600 transition-colors"
-                        >
-                          <Mail className="h-5 w-5" />
-                        </a>
-                        <a
-                          href={member.linkedin}
-                          className="text-gray-400 hover:text-orange-600 transition-colors"
-                        >
-                          <Linkedin className="h-5 w-5" />
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>
