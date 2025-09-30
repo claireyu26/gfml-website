@@ -8,13 +8,13 @@ const OurTeam = () => {
       name: "Claire Yu",
       role: "Founder, Problem Writer",
       bio: "High school senior at Germantown Friends School.",
-      image: "/GFML.png",
+      image: "/claire_headshot.jpeg",
     },
     {
       name: "Benedict Tessler",
       role: "Founder, Problem Writer",
       bio: "Math & CS major at the University of Pennsylvania",
-      image: "/GFML.png",
+      image: "/luke_headshot.png",
     },
   ];
 
