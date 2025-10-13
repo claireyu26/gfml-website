@@ -35,6 +35,57 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Sponsors Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Graciously Sponsored By</h2>
+            <div className="flex flex-wrap justify-center items-center gap-12 mb-8">
+              <div className="text-center">
+                <img 
+                  src="https://via.placeholder.com/150x60/FF6B35/FFFFFF?text=Wolfram" 
+                  alt="Wolfram" 
+                  className="h-16 mx-auto mb-2"
+                />
+                <div className="text-lg font-semibold text-gray-700">Wolfram</div>
+              </div>
+              <div className="text-center">
+                <img 
+                  src="https://via.placeholder.com/150x60/FF6B35/FFFFFF?text=Jane+Street" 
+                  alt="Jane Street" 
+                  className="h-16 mx-auto mb-2"
+                />
+                <div className="text-lg font-semibold text-gray-700">Jane Street</div>
+              </div>
+              <div className="text-center">
+                <img 
+                  src="https://via.placeholder.com/150x60/FF6B35/FFFFFF?text=LIVE" 
+                  alt="LIVE by Po-Shen Loh" 
+                  className="h-16 mx-auto mb-2"
+                />
+                <div className="text-lg font-semibold text-gray-700">LIVE by Po-Shen Loh</div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Statistics */}
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center p-6 bg-white rounded-lg shadow-md">
+              <h3 className="text-3xl font-bold text-orange-600 mb-2">$2.2K+</h3>
+              <p className="text-gray-600">In Prizes</p>
+            </div>
+            <div className="text-center p-6 bg-white rounded-lg shadow-md">
+              <h3 className="text-3xl font-bold text-orange-600 mb-2">50+</h3>
+              <p className="text-gray-600">Students</p>
+            </div>
+            <div className="text-center p-6 bg-white rounded-lg shadow-md">
+              <h3 className="text-3xl font-bold text-orange-600 mb-2">4</h3>
+              <p className="text-gray-600">Global Chapter Leaders</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Mission Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,38 +98,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Sponsors Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Graciously Sponsored By</h2>
-            <div className="flex flex-wrap justify-center items-center gap-8 mb-8">
-              <div className="text-xl font-semibold text-orange-600">Wolfram</div>
-              <div className="text-xl font-semibold text-orange-600">Jane Street</div>
-              <div className="text-xl font-semibold text-orange-600">LIVE by Po-Shen Loh</div>
-            </div>
-          </div>
-          
-          {/* Statistics */}
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-6 bg-white rounded-lg shadow-md">
-              <h3 className="text-3xl font-bold text-orange-600 mb-2">$2.2K+</h3>
-              <p className="text-gray-600">In Prizes</p>
-            </div>
-            <div className="text-center p-6 bg-white rounded-lg shadow-md">
-              <h3 className="text-3xl font-bold text-orange-600 mb-2">4</h3>
-              <p className="text-gray-600">Global Chapter Leaders</p>
-            </div>
-            <div className="text-center p-6 bg-white rounded-lg shadow-md">
-              <h3 className="text-3xl font-bold text-orange-600 mb-2">50+</h3>
-              <p className="text-gray-600">Students</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Features Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
