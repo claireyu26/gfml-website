@@ -16,7 +16,7 @@ const OurTeam = () => {
       name: "Benedict Tessler",
       role: "Founder, Problem Writer",
       bio: "Math & CS major at the University of Pennsylvania",
-      image: "/GFML.png",
+      image: "../GFML.png",
     },
   ];
 

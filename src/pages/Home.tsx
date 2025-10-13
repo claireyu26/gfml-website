@@ -43,7 +43,7 @@ const Home = () => {
             <div className="flex flex-wrap justify-center items-center gap-12 mb-8">
               <div className="text-center">
                 <img 
-                  src="https://via.placeholder.com/150x60/FF6B35/FFFFFF?text=Wolfram" 
+                  src="../wolfram.png" 
                   alt="Wolfram" 
                   className="h-16 mx-auto mb-2"
                 />
@@ -51,7 +51,7 @@ const Home = () => {
               </div>
               <div className="text-center">
                 <img 
-                  src="https://via.placeholder.com/150x60/FF6B35/FFFFFF?text=Jane+Street" 
+                  src="../janestreet.jpg" 
                   alt="Jane Street" 
                   className="h-16 mx-auto mb-2"
                 />
@@ -59,7 +59,7 @@ const Home = () => {
               </div>
               <div className="text-center">
                 <img 
-                  src="https://via.placeholder.com/150x60/FF6B35/FFFFFF?text=LIVE" 
+                  src="../live.jpg" 
                   alt="LIVE by Po-Shen Loh" 
                   className="h-16 mx-auto mb-2"
                 />

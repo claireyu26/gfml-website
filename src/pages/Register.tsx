@@ -47,16 +47,6 @@ const Register = () => {
           </iframe>
         </div>
 
-        {/* Support Info */}
-        <div className="mt-8 text-center">
-          <p className="text-gray-600">
-            Having trouble with registration? <br />
-            Contact us at{' '}
-            <a href="mailto:clairesunyu@gmail.com" className="text-orange-600 hover:text-orange-700 font-medium">
-              clairesunyu@gmail.com
-            </a>
-          </p>
-        </div>
       </div>
       <Footer />
     </div>
