@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Users, Trophy, BookOpen, Heart } from 'lucide-react';
 import Footer from '../components/Footer';
+import wolframLogo from '../wolfram.png';
+import jsLogo from '../janestreet.jpg';
+import livelogo from '../live.jpg';
+
 
 const Home = () => {
   return (
@@ -43,7 +47,7 @@ const Home = () => {
             <div className="flex flex-wrap justify-center items-center gap-12 mb-8">
               <div className="text-center">
                 <img 
-                  src="../wolfram.png" 
+                  src=wolframLogo
                   alt="Wolfram" 
                   className="h-16 mx-auto mb-2"
                 />
@@ -51,7 +55,7 @@ const Home = () => {
               </div>
               <div className="text-center">
                 <img 
-                  src="../janestreet.jpg" 
+                  src=jsLogo
                   alt="Jane Street" 
                   className="h-16 mx-auto mb-2"
                 />
@@ -59,7 +63,7 @@ const Home = () => {
               </div>
               <div className="text-center">
                 <img 
-                  src="../live.jpg" 
+                  src=liveLogo
                   alt="LIVE by Po-Shen Loh" 
                   className="h-16 mx-auto mb-2"
                 />
