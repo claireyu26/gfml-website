@@ -45,6 +45,15 @@ const Home = () => {
             </p>
           </div>
         </div>
+      </section> {/* Mission Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Graciously sponsored by Wolfram, Jane Street, and LIVE by Po-Shen Loh
+            </p>
+          </div>
+        </div>
       </section>
 
       {/* Features Section */}
