@@ -71,7 +71,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          
+
           {/* Statistics */}
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6 bg-white rounded-lg shadow-md">
