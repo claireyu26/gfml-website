@@ -40,7 +40,7 @@ const Home = () => {
       </section>
 
       {/* Sponsors Section */}
-      <section className="pt-16 pb-0 bg-gray-50">
+      <section className="pt-16 pb-8 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Graciously Sponsored By</h2>
