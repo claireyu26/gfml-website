@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, MapPin } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -9,24 +9,16 @@ const Footer = () => {
           {/* Logo and Mission */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="bg-white rounded-full p-2">
-                <img src="/GFML.png" alt="GFML Logo" className="h-8 w-8" />
-              </div>
+              <img src="/GFML.png" alt="GFML Logo" className="h-8 w-8" />
               <span className="font-bold text-xl">GFML</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
               Promoting accessibility in mathematics and nurturing mathematical talent 
               through free online competitions for students ages 6-18.
             </p>
-            <div className="flex items-center space-x-4 text-sm text-gray-400">
-              <div className="flex items-center space-x-1">
-                <Mail className="h-4 w-4" />
-                <span>clairesunyu@gmail.com</span>
-              </div>
-              <div className="flex items-center space-x-1">
-                <MapPin className="h-4 w-4" />
-                <span>Philadelphia, PA</span>
-              </div>
+            <div className="flex items-center space-x-1 text-sm text-gray-400">
+              <MapPin className="h-4 w-4" />
+              <span>Philadelphia, PA</span>
             </div>
           </div>
 
