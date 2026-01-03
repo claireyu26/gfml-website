@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Users, Trophy, BookOpen, Heart } from 'lucide-react';
 import Footer from '../components/Footer';
-import wolframLogo from '../wolfram.png';
-import jsLogo from '../janestreet.jpg';
-import livelogo from '../live.jpg';
+import wolframLogo from '../../wolfram.png';
+import jsLogo from '../../janestreet.jpg';
+import liveLogo from '../../live.jpg';
 
 
 const Home = () => {
@@ -46,25 +46,25 @@ const Home = () => {
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Graciously Sponsored By</h2>
             <div className="flex flex-wrap justify-center items-center gap-12 mb-8">
               <div className="text-center">
-                <img 
-                  src=wolframLogo
-                  alt="Wolfram" 
+                <img
+                  src={wolframLogo}
+                  alt="Wolfram"
                   className="h-16 mx-auto mb-2"
                 />
                 <div className="text-lg font-semibold text-gray-700">Wolfram</div>
               </div>
               <div className="text-center">
-                <img 
-                  src=jsLogo
-                  alt="Jane Street" 
+                <img
+                  src={jsLogo}
+                  alt="Jane Street"
                   className="h-16 mx-auto mb-2"
                 />
                 <div className="text-lg font-semibold text-gray-700">Jane Street</div>
               </div>
               <div className="text-center">
-                <img 
-                  src=liveLogo
-                  alt="LIVE by Po-Shen Loh" 
+                <img
+                  src={liveLogo}
+                  alt="LIVE by Po-Shen Loh"
                   className="h-16 mx-auto mb-2"
                 />
                 <div className="text-lg font-semibold text-gray-700">LIVE by Po-Shen Loh</div>
