@@ -45,7 +45,7 @@ const Home = () => {
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Graciously Sponsored By</h2>
             <div className="flex flex-wrap justify-center items-center gap-12 mb-8">
-              <div className="text-center">
+              <div className="text-center bg-white p-6 rounded-lg shadow-md">
                 <img
                   src={wolframLogo}
                   alt="Wolfram"
@@ -53,7 +53,7 @@ const Home = () => {
                 />
                 <div className="text-lg font-semibold text-gray-700">Wolfram</div>
               </div>
-              <div className="text-center">
+              <div className="text-center bg-white p-6 rounded-lg shadow-md">
                 <img
                   src={jsLogo}
                   alt="Jane Street"
@@ -61,7 +61,7 @@ const Home = () => {
                 />
                 <div className="text-lg font-semibold text-gray-700">Jane Street</div>
               </div>
-              <div className="text-center">
+              <div className="text-center bg-white p-6 rounded-lg shadow-md">
                 <img
                   src={liveLogo}
                   alt="LIVE by Po-Shen Loh"
